@@ -10,10 +10,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Following things implemented in this project:
 
-# `axios`
+### `axios`
 
-# `redux toolkit`
+### `redux toolkit`
 
-# `custom components`
+### `custom components`
 
-# `state management`
+### `state management`

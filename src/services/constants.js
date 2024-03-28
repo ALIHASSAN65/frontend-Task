@@ -10,7 +10,7 @@ const placeHolders = {
   streetNumber: { title: "Street Number", placeholder: "Enter street number" },
   postCode: { title: "Post Code", placeholder: "Enter post code" },
   city: { title: "Town / City", placeholder: "Enter post code" },
-  country: { title: "Country", placeholder: "Select Country" },
+  country: { title: "Country", placeholder: "Enter Country" },
 };
 const Heading = "Destination Company Address";
 const buttonTitles = {

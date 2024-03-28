@@ -1,0 +1,59 @@
+.buttons-container {
+  display: flex;
+  align-items: baseline;
+  width: 285px;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.buttons-parentContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.button-close {
+  background-color: white;
+  height: 35px;
+  width: 135px;
+  border-radius: 30px;
+  border: 1px solid #40aebd;
+  color: #40aebd;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  cursor: grab;
+}
+.button-add {
+  background-color: #40aebd;
+  height: 35px;
+  width: 135px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  cursor: grab;
+}
+
+@media screen and (max-width: 750px) {
+  .buttons-parentContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .button-close,
+  .button-add {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
